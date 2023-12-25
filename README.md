@@ -1,4 +1,4 @@
-# Skrypt Aktualizacji Bazy Danych w PHP dla Shopgold
+# Skrypt PHP dla Shopgold (masowe włączenie/wyłączenie produktów)
 
 ## Opis
 Ten skrypt PHP jest zaprojektowany jako uniwersalne narzędzie do aktualizacji bazy danych, ze szczególnym uwzględnieniem modyfikacji kolumny `products_status` w tabeli `products` bazy danych MySQL. Skrypt, po uruchomieniu, aktualizuje wartość `products_status`, kontrolując widoczność produktów w sklepie internetowym Shopgold. Skonfigurowano go tak, aby ustawiać wartość `products_status` na 1 dla wszystkich rekordów, sprawiając, że produkty są widoczne, lub na 0, aby wyłączyć widoczność dla wszystkich produktów.
